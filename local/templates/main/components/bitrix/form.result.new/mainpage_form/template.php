@@ -11,7 +11,6 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
 <?php if (!empty($arResult)): ?>
     <form
             class="contact-form__form"
-            name="SIMPLE_FORM_3"
             action="/"
             method="POST"
             enctype="multipart/form-data"
@@ -35,7 +34,9 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
                             value=""
                             required=""
                     />
-                    <div class="input__notification">Поле должно содержать не менее 3-х символов</div>
+                    <div class="input__notification">
+                        Поле должно содержать не менее 3-х символов
+                    </div>
                 </label>
             </div>
 
@@ -52,7 +53,9 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
                             value=""
                             required=""
                     />
-                    <div class="input__notification">Поле должно содержать не менее 3-х символов</div>
+                    <div class="input__notification">
+                        Поле должно содержать не менее 3-х символов
+                    </div>
                 </label>
             </div>
 
@@ -69,7 +72,9 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) die();
                             value=""
                             required=""
                     />
-                    <div class="input__notification">Неверный формат почты</div>
+                    <div class="input__notification">
+                        Неверный формат почты
+                    </div>
                 </label>
             </div>
 
